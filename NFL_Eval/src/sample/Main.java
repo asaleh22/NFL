@@ -3,47 +3,36 @@ package sample;
 import javafx.application.Application;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
-import javafx.geometry.NodeOrientation;
 import javafx.geometry.Pos;
-import javafx.scene.Node;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.*;
-import javafx.scene.transform.Rotate;
 import javafx.stage.Stage;
-
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.lang.reflect.InvocationTargetException;
 import java.net.URISyntaxException;
-import java.net.URL;
 import java.nio.file.*;
-import java.util.Iterator;
+
 
 public class Main extends Application {
-    Stage primaryStage;
-    Scene chooseScreen, showAnalysis;
-    ImageView lHalf;
-    ImageView rHalf;
-    int LIndex = 0;
-    int RIndex = 0;
-    Image imgs[];
-    TextArea LeftStats, RightStats;
+    private Stage primaryStage;
+    private Scene chooseScreen, showAnalysis;
+    private ImageView lHalf;
+    private ImageView rHalf;
+    private int LIndex = 0;
+    private int RIndex = 0;
+    private Image imgs[];
+    private TextArea LeftStats, RightStats;
+    private NFL_Eval Evaluator;
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage){
         this.primaryStage = primaryStage;
-
         VBox root = new VBox();
         String url = getClass().getResource("/resources/icons/rootBackground.png").toString();
         root.setStyle("-fx-background-image: url(" + url + "); -fx-background-repeat: stretch;" +
-                "  -fx-background-size: cover");
-
+                      "-fx-background-size: cover");
 
         HBox TopRow = new HBox(); //top row
         HBox lCol = new HBox();
@@ -68,7 +57,7 @@ public class Main extends Application {
 
         imgs = new Image[32];
         try{fillImage();}
-        catch(URISyntaxException e){} //fill the imgs array
+        catch(URISyntaxException e){System.out.println(e);} //fill the imgs array
         lHalf.setImage(imgs[0]);
         rHalf.setImage(imgs[0]);
         Button upLeft = new Button();
@@ -92,15 +81,14 @@ public class Main extends Application {
         upLeft.setMaxSize(350,35);
         upRight.setMaxSize(350,35);
 
-
-
         lCol.getChildren().add(upLeft);
         rCol.getChildren().add(upRight);
 
+        Button exitButton = new Button();
 
         TopRow.setAlignment(Pos.TOP_CENTER);
-        TopRow.setSpacing(230);
-        TopRow.getChildren().addAll(lCol,rCol);
+        TopRow.setSpacing(40);
+        TopRow.getChildren().addAll(lCol,rCol, exitButton);
 
         MatchUp.getChildren().addAll(lHalf,rHalf);
         MatchUp.setAlignment(Pos.CENTER);
@@ -111,7 +99,7 @@ public class Main extends Application {
         next.setPrefSize(50,30);
         HBox.setMargin(next,new Insets(60,60,0,0));
         BottomRow.getChildren().addAll(lCol_bot,rCol_bot);
-        BottomRow.setSpacing(230);
+        BottomRow.setSpacing(30);
         BottomRow.setAlignment(Pos.BOTTOM_CENTER);
 
 
@@ -120,62 +108,69 @@ public class Main extends Application {
         HBox.setMargin(downLeft,new Insets(5,5,5,200));
         HBox.setMargin(downRight,new Insets(5,100,5,5));
 
+        upRight.setOnMouseClicked(e   ->{++RIndex; changeRightImage();});
+        downRight.setOnMouseClicked(e ->{--RIndex; changeRightImage();});
+        upLeft.setOnMouseClicked(e    ->{++LIndex; changeLeftImage();});
+        downLeft.setOnMouseClicked(e  ->{--LIndex; changeLeftImage();});
+
+        //Sets the Teams hashmap in the object for repeated use
+        Evaluator = new NFL_Eval();
+        try{
+            Evaluator.setData();
+        }catch(URISyntaxException e){ System.out.println(e);}
 
 
-        upRight.setOnMouseClicked(e->{++RIndex; changeRightImage();});
-        downRight.setOnMouseClicked(e->{--RIndex; changeRightImage();});
-        upLeft.setOnMouseClicked(e->{++LIndex; changeLeftImage();});
-        downLeft.setOnMouseClicked(e->{--LIndex; changeLeftImage();});
-
-
-        next.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
+        next.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<>() {
             @Override public void handle(MouseEvent e){
                 showAnalysis = new Scene(nextScene(lHalf.getImage().getUrl().toString(),rHalf.getImage().getUrl().toString()),600,600);
                 showAnalysis.getStylesheets().add(getClass().getResource("/sample/stylesheets/myStyle.css").toExternalForm());
-                NFL_Eval n = new NFL_Eval(LIndex, RIndex, LeftStats, RightStats);
+                Evaluator.start(LIndex, RIndex, LeftStats, RightStats);
                 LeftStats.positionCaret(0);
                 RightStats.positionCaret(0);
                 primaryStage.setScene(showAnalysis);
                 primaryStage.setFullScreen(true);
             }
         });
+        setButtonStyles(downLeft,downRight,upLeft,upRight, next, exitButton);
 
-
-        setButtonStyles(downLeft,downRight,upLeft,upRight, next);
-
-        chooseScreen = new Scene(root,600,600);
+        chooseScreen = new Scene(root,600,600); //creates the next scene
 
         primaryStage.setScene(chooseScreen);
         primaryStage.setFullScreen(true);
         primaryStage.show();
     }
 
-
+    //Match Up screen
     HBox nextScene(String teamA, String teamB){
         HBox root = new HBox();
         VBox lHalf = new VBox();
         VBox rHalf = new VBox();
 
         lHalf.setFillWidth(true);
-        rHalf.setFillWidth(true);
-
-        lHalf.setPrefWidth(650);
-        rHalf.setPrefWidth(650);
         lHalf.setMaxWidth(650);
-        rHalf.setMaxWidth(650);
         lHalf.setMinWidth(650);
+        lHalf.setPrefWidth(650);
+
+        rHalf.setFillWidth(true);
+        rHalf.setPrefWidth(650);
+        rHalf.setMaxWidth(650);
         rHalf.setMinWidth(650);
-
-
-        lHalf.setStyle("-fx-background-image: url(" + teamA + "); -fx-background-repeat: stretch;" +
-                "  -fx-background-size: cover");
-        rHalf.setStyle("-fx-background-image: url(" + teamB + "); -fx-background-repeat: stretch;" +
-                "  -fx-background-size: cover");
 
         LeftStats = new TextArea();
         RightStats = new TextArea();
         LeftStats.setEditable(false);
         RightStats.setEditable(false);
+
+        LeftStats.setTextFormatter(createTextFormatter());
+        RightStats.setTextFormatter(createTextFormatter());
+
+        lHalf.getChildren().add(LeftStats);
+        rHalf.getChildren().add(RightStats);
+
+        lHalf.setStyle("-fx-background-image: url(" + teamA + "); -fx-background-repeat: stretch;" +
+                       "-fx-background-size: cover");
+        rHalf.setStyle("-fx-background-image: url(" + teamB + "); -fx-background-repeat: stretch;" +
+                       "-fx-background-size: cover");
 
         LeftStats.setPrefSize(300,500);
         RightStats.setPrefSize(300,500);
@@ -193,34 +188,27 @@ public class Main extends Application {
                 primaryStage.setFullScreen(true);
             }
         });
-
-
-        lHalf.getChildren().add(LeftStats);
-        lHalf.getChildren().add(returnButton);
         returnButton.setAlignment(Pos.BOTTOM_LEFT);
         returnButton.setOnMouseEntered(e-> returnButton.setStyle("-fx-background-color: green;" +
-                "-fx-border-color: blue;"));
+                                                                 "-fx-border-color: blue;"));
         returnButton.setOnMouseExited(e-> returnButton.setStyle(null));
         VBox.setMargin(returnButton,new Insets(50));
-
-        rHalf.getChildren().add(RightStats);
+        lHalf.getChildren().add(returnButton);
 
         root.setAlignment(Pos.CENTER);
-
         root.getChildren().addAll(lHalf,rHalf);
-
         return root;
     }
 
-
-    void fillImage() throws URISyntaxException{
+    //reads the teams folder and stores all images in an images array
+    private void fillImage() throws URISyntaxException{
         int i = 0;
         Path dir = Paths.get(getClass().getResource("/resources/teams").toURI());
 
         try (DirectoryStream<Path> stream = Files.newDirectoryStream(dir)){
             for (Path entry: stream) {
-            imgs[i] = new Image(getClass().getResource("/resources/teams/" + entry.getFileName().toString()).toString());
-            ++i;
+                imgs[i] = new Image(getClass().getResource("/resources/teams/" + entry.getFileName().toString()).toString());
+                ++i;
             }
         }catch(NotDirectoryException e) {
             System.out.println("NotDirectory: " + e.getCause());
@@ -235,21 +223,19 @@ public class Main extends Application {
             System.out.println("IteratorException: " + e.getCause());
         }
 
-
-
     }
 
-    void changeLeftImage(){
-
-        if(LIndex> 31)
+    //Changes image in imageview and loops the array.
+    private void changeLeftImage(){
+        if(LIndex > 31)
             LIndex = 0;
         else if(LIndex < 0)
             LIndex = 31;
-
         lHalf.setImage(imgs[LIndex]);
     }
 
-    void changeRightImage(){
+    //Changes image in imageview and loops the array.
+    private void changeRightImage(){
         if(RIndex> 31)
             RIndex = 0;
         else if(RIndex < 0)
@@ -257,8 +243,7 @@ public class Main extends Application {
         rHalf.setImage(imgs[RIndex]);
     }
 
-    void setButtonStyles(Button bottomLeft,Button bottomRight,Button topLeft, Button topRight, Button next){
-        //final String IDLE_BUTTON_STYLE = "-fx-background-color: transparent;";
+    private void setButtonStyles(Button bottomLeft,Button bottomRight,Button topLeft, Button topRight, Button next, Button exit){
         final String HOVERED_BUTTON_STYLE = "-fx-background-color: yellow; -fx-border-color: blue;";
 
         String url = getClass().getResource("/resources/icons/down.png").toString();
@@ -268,7 +253,6 @@ public class Main extends Application {
 
         bottomLeft.setOnMouseEntered(e-> bottomLeft.setStyle(HOVERED_BUTTON_STYLE));
         bottomLeft.setOnMouseExited(e-> bottomLeft.setStyle(null));
-
 
         //button two
         bottomRight.setGraphic(new ImageView(down));
@@ -297,11 +281,31 @@ public class Main extends Application {
         //button next
         url = getClass().getResource("/resources/icons/next.png").toString();
         next.setGraphic(new ImageView(new Image(url,20 ,20, true, true)));
-
         next.setOnMouseEntered(e-> next.setStyle("-fx-background-color: green;" +
-                                                "-fx-border-color: blue;"));
+                                                 "-fx-border-color: blue;"));
         next.setOnMouseExited(e-> next.setStyle(null));
 
+        //button exit
+        url = getClass().getResource("/resources/icons/exit.png").toString();
+        exit.setGraphic(new ImageView(new Image(url,20 ,20, true, true)));
+        exit.setOnMouseEntered(e-> exit.setStyle("-fx-background-color: red;" +
+                                                 "-fx-border-color: blue;"));
+        exit.setOnMouseExited(e-> exit.setStyle(null));
+        exit.setOnMouseClicked(e-> System.exit(0));
+    }
+
+    private static <T> TextFormatter<T> createTextFormatter() {
+
+        //if a new line contains too many characters, cut it down to a readable end
+        return new TextFormatter<>(change -> {
+            if (change.isAdded()) {
+                if (change.getText().indexOf('\n') > -1) { //if /n is found
+                    if(change.getText().length() > 40)
+                        change.setText(change.getText().substring(0,36) + change.getText().substring(change.getText().length()-4, change.getText().length()));
+                }
+            }
+            return change;
+        });
     }
 
     public static void main(String[] args) {

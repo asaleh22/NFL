@@ -13,6 +13,6 @@
     -fx-control-inner-background: black;
 }
 .text-area *.text {
-    -fx-text-alignment: right;
+    -fx-text-alignment: left;
 }
 

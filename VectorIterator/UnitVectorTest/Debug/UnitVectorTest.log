@@ -1,15 +1,1 @@
-﻿  UnitVectorTest.cpp
-C:\Users\Ali\Desktop\grid\VectorIterator\VectorIterator\myVector.h(129,26): warning C4018: '>=': signed/unsigned mismatch
-C:\Users\Ali\Desktop\grid\VectorIterator\VectorIterator\myVector.h(128): message : while compiling class template member function 'T &myVector<T>::operator [](int) const'
-          with
-          [
-              T=int
-          ]
-C:\Users\Ali\Desktop\grid\VectorIterator\UnitVectorTest\UnitVectorTest.cpp(20): message : see reference to function template instantiation 'T &myVector<T>::operator [](int) const' being compiled
-          with
-          [
-              T=int
-          ]
-C:\Users\Ali\Desktop\grid\VectorIterator\UnitVectorTest\UnitVectorTest.cpp(15): message : see reference to class template instantiation 'myVector<int>' being compiled
-     Creating library C:\Users\Ali\Desktop\grid\VectorIterator\VectorIterator\Debug\UnitVectorTest.lib and object C:\Users\Ali\Desktop\grid\VectorIterator\VectorIterator\Debug\UnitVectorTest.exp
-  UnitVectorTest.vcxproj -> C:\Users\Ali\Desktop\grid\VectorIterator\VectorIterator\Debug\UnitVectorTest.dll
+﻿  UnitVectorTest.vcxproj -> C:\Users\Ali\Documents\GitHub\Group\Personal_Projects\VectorIterator\VectorIterator\Debug\UnitVectorTest.dll

@@ -1,36 +1,36 @@
 Rk,Tm,G,Att,Yds,TD,Y/A,Y/G,EXP
-1,Pittsburgh Steelers,1,20,29,0,1.5,29.0,
-2,Buffalo Bills,1,15,52,1,3.5,52.0,
-3,Washington Football Team,1,17,57,0,3.4,57.0,
-4,Seattle Seahawks,1,21,72,1,3.4,72.0,
-5,Philadelphia Eagles,1,36,80,2,2.2,80.0,
-6,Tampa Bay Buccaneers,1,34,82,1,2.4,82.0,
-7,Atlanta Falcons,1,20,84,1,4.2,84.0,
-8,New Orleans Saints,1,26,86,1,3.3,86.0,
-9,New England Patriots,1,27,87,1,3.2,87.0,
-10,Jacksonville Jaguars,1,22,88,1,4.0,88.0,
-11,Indianapolis Colts,1,23,91,0,4.0,91.0,
-12,New York Jets,1,32,98,1,3.1,98.0,
-13,Cleveland Browns,1,30,107,2,3.6,107.0,
-14,Tennessee Titans,1,26,107,1,4.1,107.0,
-15,Kansas City Chiefs,1,22,118,2,5.4,118.0,
-16,Los Angeles Chargers,1,28,122,1,4.4,122.0,
-17,Arizona Cardinals,1,25,123,0,4.9,123.0,
-18,Las Vegas Raiders,1,30,128,2,4.3,128.0,
-19,Denver Broncos,1,34,130,0,3.8,130.0,
-20,Carolina Panthers,1,31,133,3,4.3,133.0,
-21,Green Bay Packers,1,22,134,2,6.1,134.0,
-22,Los Angeles Rams,1,27,136,1,5.0,136.0,
-23,Chicago Bears,1,29,138,1,4.8,138.0,
-24,Baltimore Ravens,1,27,138,0,5.1,138.0,
-25,New York Giants,1,30,141,0,4.7,141.0,
-26,Detroit Lions,1,28,149,0,5.3,149.0,
-27,Dallas Cowboys,1,40,153,2,3.8,153.0,
-28,Cincinnati Bengals,1,39,155,1,4.0,155.0,
-29,Minnesota Vikings,1,32,158,1,4.9,158.0,
-30,Houston Texans,1,34,166,1,4.9,166.0,
-31,San Francisco 49ers,1,36,180,2,5.0,180.0,
-32,Miami Dolphins,1,42,217,3,5.2,217.0,
-,Avg Team,,28.3,116.8,1.1,4.1,116.8,
-,League Total,,905,3739,35,4.1,116.8,
-,Avg Tm/G,,28.3,116.8,1.1,4.1,116.8,
+1,Pittsburgh Steelers,2,46,133,0,2.9,66.5,9.20
+2,Seattle Seahawks,2,46,139,3,3.0,69.5,6.50
+3,Buffalo Bills,2,37,151,2,4.1,75.5,-8.30
+4,Tampa Bay Buccaneers,2,58,169,3,2.9,84.5,8.87
+5,Indianapolis Colts,2,41,171,1,4.2,85.5,3.30
+6,Cleveland Browns,2,54,179,2,3.3,89.5,3.70
+7,Baltimore Ravens,2,44,189,0,4.3,94.5,5.48
+8,New Orleans Saints,2,61,202,2,3.3,101.0,2.26
+9,Atlanta Falcons,2,51,209,5,4.1,104.5,0.90
+10,Jacksonville Jaguars,2,56,211,1,3.8,105.5,9.91
+11,Chicago Bears,2,47,213,2,4.5,106.5,0.82
+12,Washington Football Team,2,49,217,2,4.4,108.5,-6.58
+13,Green Bay Packers,2,43,223,3,5.2,111.5,-17.44
+14,Denver Broncos,2,56,239,1,4.3,119.5,10.54
+15,Arizona Cardinals,2,48,240,1,5.0,120.0,-5.70
+16,Las Vegas Raiders,2,49,241,4,4.9,120.5,-10.40
+17,New England Patriots,2,57,241,1,4.2,120.5,-2.92
+18,Los Angeles Chargers,2,50,247,1,4.9,123.5,-1.65
+19,Carolina Panthers,2,53,255,6,4.8,127.5,-1.49
+20,Los Angeles Rams,2,53,257,3,4.8,128.5,-13.85
+21,Dallas Cowboys,2,74,266,2,3.6,133.0,-0.58
+22,Philadelphia Eagles,2,75,271,4,3.6,135.5,3.75
+23,Tennessee Titans,2,53,272,2,5.1,136.0,-12.60
+24,New York Giants,2,62,276,0,4.5,138.0,1.84
+25,New York Jets,2,61,280,3,4.6,140.0,7.00
+26,San Francisco 49ers,2,65,284,2,4.4,142.0,-1.45
+27,Kansas City Chiefs,2,66,301,3,4.6,150.5,-9.65
+28,Minnesota Vikings,2,72,309,2,4.3,154.5,-3.04
+29,Miami Dolphins,2,65,328,3,5.0,164.0,-13.38
+30,Cincinnati Bengals,2,74,370,4,5.0,185.0,-6.04
+31,Houston Texans,2,71,396,2,5.6,198.0,-11.02
+32,Detroit Lions,2,63,408,2,6.5,204.0,-19.57
+,Avg Team,,56.3,246.5,2.3,4.4,123.2,-2.2
+,League Total,,1800,7887,72,4.4,123.2,
+,Avg Tm/G,,28.1,123.2,1.1,4.4,123.2,

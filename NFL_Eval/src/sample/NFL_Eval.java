@@ -8,31 +8,29 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.HashMap;
 
-
 public class NFL_Eval {
 
-    HashMap<String,Team> Teams;
-
-    //Franchises must be entered as they are in the CV: Chicago Bears... Detroit Lions...
-    NFL_Eval(int teamA, int teamB, TextArea lhs, TextArea rhs){
-
-        try{
-            setData();
-        }catch(URISyntaxException e){ }
-
-        matchUpAnalysis(Franchises.getTeam(teamA), Franchises.getTeam(teamB), lhs,rhs);
+    private HashMap<String,Team> Teams;
+    private Run_Analysis gameStats;
+    //Index in array correspond to id of team
+    //given the teams, sets the data in objects then starts the analysis
+    NFL_Eval(){
+       Teams = buildTeams();
+       gameStats = new Run_Analysis();
     }
 
-    //Builds the teams before the user enters the names.
-    public void setData() throws URISyntaxException{
-
-        Teams = buildTeams();
+    void start(int teamA, int teamB, TextArea lhs, TextArea rhs){
+        matchUpAnalysis(Franchises.getTeam(teamA), Franchises.getTeam(teamB), lhs,rhs);
+    }
+    //Builds the teams objects
+    //Data is taken from(and must be updated) https://www.pro-football-reference.com/ throughout the season
+    //method is called once
+    void setData() throws URISyntaxException{
 
         String csv = "Rushing_Defense.txt";
         setRushingDefense(csv);
 
         csv = "Passing_Defense.txt";
-
         setPassingDefense(csv);
 
         csv = "Total_Defense.txt";
@@ -50,18 +48,16 @@ public class NFL_Eval {
 
 
     //Gets the names and runs them through for an analysis
-    public void matchUpAnalysis(String a, String b, TextArea lhs, TextArea rhs){
-        Team A = Teams.get(a);
-        Team B = Teams.get(b);
-
-        Run_Analysis gameStats = new Run_Analysis(A,B,lhs,rhs);
+    //At this point, data is properly assigned, now it will run it.
+    private void matchUpAnalysis(String a, String b, TextArea lhs, TextArea rhs){
+        gameStats.start(Teams.get(a), Teams.get(b),lhs,rhs);
     }
 
     //Enters the relevant information for this category.
-    public void setTotalOffense(String csv) throws URISyntaxException{
+    private void setTotalOffense(String csv) throws URISyntaxException{
         String line = "";
         String csvSplit = ",";
-        String[] football = new String[0];
+        String[] football;
         File stats = new File(getClass().getResource("/resources/stats/" + csv).toURI());
 
         try (
@@ -76,7 +72,7 @@ public class NFL_Eval {
                 if(Teams.containsKey(football[1])){  //football[1] is the team name
                     Team currTeam = Teams.get(football[1]);
 
-                    currTeam.off.setRushAndPass(football[6], football[7], football[8], //relevant info
+                    currTeam.getOff().setRushAndPass(football[6], football[7], football[8], //relevant info
                             football[9], football[11], football[12],
                             football[13], football[14], football[16],
                             football[17], football[18], football[19], football[21], football[22], football[24], football[25], football[26]);
@@ -91,7 +87,7 @@ public class NFL_Eval {
     }
 
     //Enters the relevant information for this category.
-    public void setRushingOffense(String csv) throws URISyntaxException{
+    private void setRushingOffense(String csv) throws URISyntaxException{
         String line = "";
         String csvSplit = ",";
         String[] football = new String[0];
@@ -108,7 +104,7 @@ public class NFL_Eval {
                 if(Teams.containsKey(football[1])){ //team name
                     Team currTeam = Teams.get(football[1]);
 
-                    currTeam.off.rush.setRushOff(football[4], football[5], football[7], football[8], football[9]); //relevant info
+                    currTeam.getOff().getRush().setRushOff(football[4], football[5], football[7], football[8], football[9]); //relevant info
                 }
 
             }
@@ -121,7 +117,7 @@ public class NFL_Eval {
     }
 
     //Enters the relevant information for this category.
-    public void setRushingDefense(String csv) throws URISyntaxException{
+    private void setRushingDefense(String csv) throws URISyntaxException{
         String line = "";
         String csvSplit = ",";
         String[] football = new String[0];
@@ -139,7 +135,7 @@ public class NFL_Eval {
                 if(Teams.containsKey(football[1])){
                     Team currTeam = Teams.get(football[1]); //team name
 
-                    currTeam.def.rush.setRushDef(football[5], football[6], football[7]); //relevant info
+                    currTeam.getDef().getRush().setRushDef(football[5], football[6], football[7]); //relevant info
                 }
 
             }
@@ -152,7 +148,7 @@ public class NFL_Eval {
     }
 
     //Enters the relevant information for this category.
-    public void setPassingDefense(String csv) throws URISyntaxException {
+    private void setPassingDefense(String csv) throws URISyntaxException {
 
         String line = "";
         String csvSplit = ",";
@@ -171,7 +167,7 @@ public class NFL_Eval {
                 if(Teams.containsKey(football[1])){
                     Team currTeam = Teams.get(football[1]); //team name
 
-                    currTeam.def.pass.setPassDef(football[4], football[5], football[6], //relevant info
+                    currTeam.getDef().getPass().setPassDef(football[4], football[5], football[6], //relevant info
                             football[7], football[8], football[9],
                             football[11], football[12], football[14],
                             football[15], football[16], football[17],
@@ -187,7 +183,7 @@ public class NFL_Eval {
     }
 
     //Enters the relevant information for this category.
-    public void setTotalDefense(String csv) throws URISyntaxException{
+    private void setTotalDefense(String csv) throws URISyntaxException{
         String line = "";
         String csvSplit = ",";
         String[] football = new String[0];
@@ -203,7 +199,7 @@ public class NFL_Eval {
                 if(Teams.containsKey(football[1])){
                     Team currTeam = Teams.get(football[1]); //team name
 
-                    currTeam.def.setRushAndPass(football[6], football[7], football[8], //relevant info
+                    currTeam.getDef().setRushAndPass(football[6], football[7], football[8], //relevant info
                             football[9], football[16], football[21],
                             football[22], football[24], football[25],
                             football[26]);
@@ -219,7 +215,7 @@ public class NFL_Eval {
     }
 
     //Enters the relevant information for this category.
-    public void setPassingOffense(String csv) throws URISyntaxException{
+    private void setPassingOffense(String csv) throws URISyntaxException{
         String line = "";
         String csvSplit = ",";
         String[] football = new String[0];
@@ -237,8 +233,8 @@ public class NFL_Eval {
                 if(Teams.containsKey(team)){
                     Team currTeam = Teams.get(team);
 
-                    currTeam.off.initPasser();
-                    currTeam.off.pass.setPasser(football[1], football[10], football[11], //relevant info
+                    currTeam.getOff().initPasser();
+                    currTeam.getOff().getPass().setPasser(football[1], football[10], football[11], //relevant info
                             football[12], football[13], football[14],
                             football[15], football[16], football[17],
                             football[19], football[20], football[21],
@@ -258,7 +254,8 @@ public class NFL_Eval {
     }
 
     //Initial build for the teams hashmap.
-    public HashMap<String, Team> buildTeams(){ //creates blank Team Objects.
+    //Stores the proper string as the key for each team(identical to the Franchises class)
+    private HashMap<String, Team> buildTeams(){ //creates blank Team Objects.
         HashMap<String, Team> temp = new HashMap<>();
 
         temp.put("Chicago Bears",            new Team("Bears"));
@@ -298,7 +295,7 @@ public class NFL_Eval {
     }
 
     //some CVs have abbreviations instead of team names.
-    public String converter(String t_Name){
+    private String converter(String t_Name){
         switch(t_Name){
 
             case "CHI": return "Chicago Bears";

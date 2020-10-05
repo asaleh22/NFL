@@ -1,2 +1,4 @@
 C:\Users\Ali\Desktop\grid\VectorIterator\VectorIterator\Debug\VectorIterator.exe
 C:\Users\Ali\Desktop\grid\VectorIterator\VectorIterator\Debug\VectorIterator.pdb
+C:\Users\Ali\Documents\GitHub\Group\Personal_Projects\VectorIterator\VectorIterator\Debug\VectorIterator.exe
+C:\Users\Ali\Documents\GitHub\Group\Personal_Projects\VectorIterator\VectorIterator\Debug\VectorIterator.pdb

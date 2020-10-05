@@ -12,11 +12,9 @@ int main()
 {
 
     myVector<int> m;
-    m.add(1, 2, 3, 4, 5);
-    int f = 8;
-
-    f.~T();
-   
+    m.add(-1, 4, 44, 2, 434, 1, 3, 0);
+    std::sort(m.begin(), m.end());
+    disp(m);
     
 }
 
