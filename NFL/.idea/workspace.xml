@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/resources/stylesheets/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NFL_Eval/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NFL_Eval/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NFL_Eval/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NFL_Eval/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NFL_Eval/out/production/NFL_Eval/sample/Franchises.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NFL_Eval/out/production/NFL_Eval/sample/Franchises.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NFL_Eval/out/production/NFL_Eval/sample/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NFL_Eval/out/production/NFL_Eval/sample/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NFL_Eval/out/production/NFL_Eval/sample/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NFL_Eval/out/production/NFL_Eval/sample/Main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NFL_Eval/out/production/NFL_Eval/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NFL_Eval/out/production/NFL_Eval/sample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NFL_Eval/out/production/NFL_Eval/sample/NFL_Eval.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NFL_Eval/out/production/NFL_Eval/sample/NFL_Eval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NFL_Eval/out/production/NFL_Eval/sample/Run_Analysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NFL_Eval/out/production/NFL_Eval/sample/Run_Analysis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFX/sample/Analysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFX/sample/Analysis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFX/sample/Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFX/sample/Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFX/sample/Data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFX/sample/Main$myThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFX/sample/Main$myThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFX/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFX/sample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFX/sample/Racer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFX/sample/dl.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFX/sample/flag.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Analysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Analysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/data/Data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Racer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/dl.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/dl.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/flag.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/flag.jpg" afterDir="false" />
+    </list>
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+=======
+    <list default="true" id="996094c4-2208-460f-b167-fb28dbe5ba1c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NFL_Eval.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NFL_Eval.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NFL_Eval/resources/stats/Passing_Defense.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NFL_Eval/resources/stats/Passing_Defense.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NFL_Eval/resources/stats/Passing_Offense.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NFL_Eval/resources/stats/Passing_Offense.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NFL_Eval/resources/stats/Rushing_Defense.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NFL_Eval/resources/stats/Rushing_Defense.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NFL_Eval/resources/stats/Rushing_Offense.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NFL_Eval/resources/stats/Rushing_Offense.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NFL_Eval/resources/stats/Total_Defense.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NFL_Eval/resources/stats/Total_Defense.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NFL_Eval/resources/stats/Total_Offense.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NFL_Eval/resources/stats/Total_Offense.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Franchises.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Franchises.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NFL_Eval/sample/NFL_Eval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NFL_Eval/sample/NFL_Eval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Run_Analysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Run_Analysis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Team$Defense$Passing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Team$Defense$Passing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Team$Defense$Rushing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Team$Defense$Rushing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Team$Defense.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Team$Defense.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Team$Offense$Passing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Team$Offense$Passing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Team$Offense$Rushing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Team$Offense$Rushing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Team$Offense.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Team$Offense.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NFL_Eval/sample/Team.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/stats/Passing_Defense.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/stats/Passing_Defense.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/stats/Passing_Offense.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/stats/Passing_Offense.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/stats/Rushing_Defense.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/stats/Rushing_Defense.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/stats/Rushing_Offense.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/stats/Rushing_Offense.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/stats/Total_Defense.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/stats/Total_Defense.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/stats/Total_Offense.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/stats/Total_Offense.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Franchises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Franchises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/NFL_Eval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/NFL_Eval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Run_Analysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Run_Analysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/stylesheets/myStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/stylesheets/myStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/.vs/VectorIterator/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/.vs/VectorIterator/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/.vs/VectorIterator/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/.vs/VectorIterator/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.dll.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.dll.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.pch" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.pch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.tlog/UnitVectorTest.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.tlog/UnitVectorTest.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.tlog/UnitVectorTest.write.1u.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.tlog/UnitVectorTest.write.1u.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/UnitVectorTest.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/pch.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/pch.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/vc142.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/UnitVectorTest/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/.vs/VectorIterator/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/.vs/VectorIterator/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/.vs/VectorIterator/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/.vs/VectorIterator/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/.vs/VectorIterator/v16/Solution.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/.vs/VectorIterator/v16/Solution.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/.vs/VectorIterator/v16/Solution.VC.db-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/.vs/VectorIterator/v16/Solution.VC.db-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/.vs/VectorIterator/v16/TestStore/0/000.testlog" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/.vs/VectorIterator/v16/TestStore/0/000.testlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/UnitVectorTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/UnitVectorTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/UnitVectorTest.exp" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/UnitVectorTest.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/UnitVectorTest.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/UnitVectorTest.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/UnitVectorTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/UnitVectorTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.exe.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.log" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.tlog/VectorIterator.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.tlog/VectorIterator.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.vcxproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/VectorIterator.vcxproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/vc142.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VectorIterator/VectorIterator/VectorIterator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../VectorIterator/VectorIterator/VectorIterator.cpp" afterDir="false" />
+    </list>
+>>>>>>> repo-NFL/master
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+<<<<<<< HEAD
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+=======
+>>>>>>> repo-NFL/master
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="204">
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <folding>
+                <element signature="e#1362#1363#0" expanded="true" />
+                <element signature="e#1408#1409#0" expanded="true" />
+                <element signature="class#myThread#0;class#Main#0" />
+                <element signature="method#groupFull#0;class#myThread#0;class#Main#0" />
+                <element signature="method#setActive#0;class#myThread#0;class#Main#0" />
+                <element signature="e#11362#11363#0" expanded="true" />
+=======
+            <state relative-caret-position="110">
+              <caret line="303" column="130" selection-start-line="303" selection-start-column="130" selection-end-line="303" selection-end-column="130" />
+              <folding>
+                <element signature="method#changeLeftImage#0;class#Main#0" />
+                <element signature="method#changeRightImage#0;class#Main#0" />
+                <element signature="method#setButtonStyles#0;class#Main#0" />
+>>>>>>> repo-NFL/master
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/module-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/stylesheets/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Analysis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/sample/Run_Analysis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1785">
+              <caret line="105" column="39" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
+              <folding>
+                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#1591#1592#0" expanded="true" />
+>>>>>>> repo-NFL/master
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/sample/Builder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/sample/NFL_Eval.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2023">
+              <caret line="138" column="17" lean-forward="true" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#setData#0;class#NFL_Eval#0" />
+                <element signature="method#setTotalDefense#0;class#NFL_Eval#0" />
+                <element signature="method#setPassingOffense#0;class#NFL_Eval#0" />
+                <element signature="method#buildTeams#0;class#NFL_Eval#0" />
+                <element signature="method#converter#0;class#NFL_Eval#0" />
+>>>>>>> repo-NFL/master
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+<<<<<<< HEAD
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="module-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>text</find>
+      <find>String</find>
+      <find>,</find>
+      <find>&quot;</find>
+      <find>Truex</find>
+      <find>UPDATED</find>
+      <find>H_racers</find>
+      <find>build</find>
+      <find>custom</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>Hamlin 1</replace>
+      <replace>Truex 2</replace>
+      <replace>H_Racers</replace>
+    </replaceStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+=======
+>>>>>>> repo-NFL/master
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/src/sample/myThread.java" />
+        <option value="$PROJECT_DIR$/src/sample/Data.csv" />
+        <option value="$PROJECT_DIR$/src/sample/Legend.java" />
+        <option value="$PROJECT_DIR$/src/module-info.java" />
+        <option value="$PROJECT_DIR$/src/sample/myStyle" />
+        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Data.txt" />
+        <option value="$PROJECT_DIR$/src/sample/Racer.java" />
+        <option value="$PROJECT_DIR$/src/sample/styles.css" />
+        <option value="$PROJECT_DIR$/src/sample/Builder.java" />
+        <option value="$PROJECT_DIR$/src/sample/Analysis.java" />
+        <option value="$PROJECT_DIR$/src/resources/stylesheets/styles.css" />
+=======
+        <option value="$PROJECT_DIR$/src/resources/stats/Total_Offense.txt" />
+        <option value="$PROJECT_DIR$/src/resources/stats/Rushing_Offense.txt" />
+        <option value="$PROJECT_DIR$/src/resources/stats/Total_Defense.txt" />
+        <option value="$PROJECT_DIR$/src/resources/stats/Passing_Defense.txt" />
+        <option value="$PROJECT_DIR$/src/resources/stats/Rushing_Defense.txt" />
+        <option value="$PROJECT_DIR$/src/resources/stats/Passing_Offense.txt" />
+        <option value="$PROJECT_DIR$/src/sample/Team.java" />
+        <option value="$PROJECT_DIR$/src/sample/stylesheets/myStyle.css" />
+        <option value="$PROJECT_DIR$/src/sample/Run_Analysis.java" />
+        <option value="$PROJECT_DIR$/src/sample/Franchises.java" />
+        <option value="$PROJECT_DIR$/src/sample/NFL_Eval.java" />
+>>>>>>> repo-NFL/master
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+      </list>
+    </option>
+  </component>
+<<<<<<< HEAD
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+=======
+>>>>>>> repo-NFL/master
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="width" value="723" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+<<<<<<< HEAD
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+=======
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+>>>>>>> repo-NFL/master
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+<<<<<<< HEAD
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Nascar" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JavaFX" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Nascar" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JavaFX" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Nascar" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JavaFX" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Nascar" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JavaFX" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="stylesheets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Nascar" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="JavaFX" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sample" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+=======
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NFL_Eval" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NFL_Eval" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NFL_Eval" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NFL_Eval" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NFL_Eval" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NFL_Eval" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NFL_Eval" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NFL_Eval" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+>>>>>>> repo-NFL/master
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+<<<<<<< HEAD
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602178527756" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Java/jdk-11.0.2/lib" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20114942" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ali\Documents\GitHub\Group\Personal_Projects\Nascar\src\resources\stylesheets" />
+      <recent name="C:\Users\Ali\Documents\GitHub\Group\Personal_Projects\Nascar\src\sample\resources\images" />
+      <recent name="C:\Users\Ali\Documents\GitHub\Group\Personal_Projects\Nascar\src\sample\data" />
+    </key>
+=======
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601919848586" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../javafx-sdk-11.0.2/lib/javafx.web.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+>>>>>>> repo-NFL/master
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+<<<<<<< HEAD
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="JavaFX" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+=======
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="NFL_Eval" />
+>>>>>>> repo-NFL/master
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+<<<<<<< HEAD
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+=======
+>>>>>>> repo-NFL/master
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+=======
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+>>>>>>> repo-NFL/master
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
+=======
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+>>>>>>> repo-NFL/master
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1302000" />
+  </component>
+=======
+      <changelist id="996094c4-2208-460f-b167-fb28dbe5ba1c" name="Default Changelist" comment="" />
+      <created>1600816787541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600816787541</updated>
+    </task>
+    <servers />
+  </component>
+>>>>>>> repo-NFL/master
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.22995952" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30017763" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.053285968" />
+      <window_info anchor="bottom" id="ExcelReader" order="15" weight="0.7531083" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15222672" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.24939272" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+>>>>>>> repo-NFL/master
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/sample/z.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/myThread.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Legend.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/myStyle.css" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/images/flag.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/images/dl.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/data/Data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Racer.java" />
+    <entry file="file://$PROJECT_DIR$/src/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/resources/stats/Total_Offense.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="123" selection-start-line="35" selection-start-column="123" selection-end-line="35" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/stats/Rushing_Offense.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/stats/Passing_Offense.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="102" selection-start-line="40" selection-start-column="102" selection-end-line="40" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/stats/Passing_Defense.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="106" selection-start-line="35" selection-start-column="106" selection-end-line="35" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/stats/Rushing_Defense.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/stats/Total_Defense.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="123" selection-start-line="35" selection-start-column="123" selection-end-line="35" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/stylesheets/myStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="method#setRushAndPass#0;class#Defense#0;class#Team#0" />
+            <element signature="e#2106#2107#0" expanded="true" />
+            <element signature="e#2146#2147#0" expanded="true" />
+            <element signature="class#Passing#0;class#Defense#0;class#Team#0" />
+            <element signature="method#setRushAndPass#0;class#Offense#0;class#Team#0" />
+            <element signature="e#9805#9806#0" expanded="true" />
+            <element signature="e#9847#9848#0" expanded="true" />
+            <element signature="e#11633#11634#0" expanded="true" />
+            <element signature="e#11681#11682#0" expanded="true" />
+            <element signature="e#13929#13930#0" expanded="true" />
+            <element signature="e#13971#13972#0" expanded="true" />
+>>>>>>> repo-NFL/master
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/sample/Analysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/sample/Franchises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/NFL_Eval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="138" column="17" lean-forward="true" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setData#0;class#NFL_Eval#0" />
+            <element signature="method#setTotalDefense#0;class#NFL_Eval#0" />
+            <element signature="method#setPassingOffense#0;class#NFL_Eval#0" />
+            <element signature="method#buildTeams#0;class#NFL_Eval#0" />
+            <element signature="method#converter#0;class#NFL_Eval#0" />
+>>>>>>> repo-NFL/master
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/resources/stylesheets/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/sample/Run_Analysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="39" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
+          <folding>
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1591#1592#0" expanded="true" />
+          </folding>
+>>>>>>> repo-NFL/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="204">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="e#1362#1363#0" expanded="true" />
+            <element signature="e#1408#1409#0" expanded="true" />
+            <element signature="class#myThread#0;class#Main#0" />
+            <element signature="method#groupFull#0;class#myThread#0;class#Main#0" />
+            <element signature="method#setActive#0;class#myThread#0;class#Main#0" />
+            <element signature="e#11362#11363#0" expanded="true" />
+=======
+        <state relative-caret-position="110">
+          <caret line="303" column="130" selection-start-line="303" selection-start-column="130" selection-end-line="303" selection-end-column="130" />
+          <folding>
+            <element signature="method#changeLeftImage#0;class#Main#0" />
+            <element signature="method#changeRightImage#0;class#Main#0" />
+            <element signature="method#setButtonStyles#0;class#Main#0" />
+>>>>>>> repo-NFL/master
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+<<<<<<< HEAD
+          <last-edited>JavaFXApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20114942" />
+=======
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+>>>>>>> repo-NFL/master
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+<<<<<<< HEAD
+                <option value="0.20114942" />
+=======
+                <option value="0.2" />
+>>>>>>> repo-NFL/master
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+<<<<<<< HEAD
+                <option value="0.20114942" />
+=======
+                <option value="0.2" />
+>>>>>>> repo-NFL/master
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+<<<<<<< HEAD
+          <last-edited>JDK</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20114942" />
+=======
+          <last-edited>IntelliJ IDEA Community Edition IC-183.5153.38</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+>>>>>>> repo-NFL/master
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+<<<<<<< HEAD
+          <last-edited>JavaFX</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20114942" />
+=======
+          <last-edited>NFL_Eval</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Android API 25 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+>>>>>>> repo-NFL/master
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+<<<<<<< HEAD
+          <last-edited>libraries</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20114942" />
+=======
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+>>>>>>> repo-NFL/master
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
